@@ -11,6 +11,16 @@ $(document).ready(function() {
     }, {
         offset: "60px;"
     });
+	
+	
+	$(".js--wp-8").waypoint(
+    function(direction) {
+      $(".js--wp-8").addClass("animated fadeInUp");
+    },
+    {
+      offset: "50%"
+    }
+  );
     
     
     /*-----SCROLL ON BUTTON-----*/
@@ -79,6 +89,8 @@ $(document).ready(function() {
        }, {
          offset: "50%"
      });
+	
+	
     
     
     
