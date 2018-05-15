@@ -51,7 +51,7 @@ $(document).ready(function() {
          $(".js--wp-1").addClass("animated fadeIn");
        
        }, {
-         offset: "50%"
+         offset: "60%"
      });
 
 /*

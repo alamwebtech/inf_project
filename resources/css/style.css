@@ -228,7 +228,7 @@ header {
     position: absolute;
     width: 500px;
     top: 80%;
-    left: 26%;
+    left: 50%;
 	background:linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17));
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -256,12 +256,15 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+	font-weight:400px;
 }
 
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+	
 }
+
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -270,7 +273,9 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
+	
     border-bottom: 2px solid transparent;
+
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
@@ -352,6 +357,9 @@ header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+section{
+	padding: 50px 0;
 }
 
 
@@ -470,7 +478,7 @@ header {
 /* ----------------------------------------------- */
 
 .box img {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-bottom: 15px;
 }
