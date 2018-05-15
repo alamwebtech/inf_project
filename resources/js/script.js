@@ -13,9 +13,9 @@ $(document).ready(function() {
     });
 	
 	
-	$(".js--wp-8").waypoint(
+	$(".js--wp-rudy").waypoint(
     function(direction) {
-      $(".js--wp-8").addClass("animated fadeInUp");
+      $(".js--wp-rudy").addClass("animated fadeInRight");
     },
     {
       offset: "50%"
