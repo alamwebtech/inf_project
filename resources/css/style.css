@@ -132,7 +132,7 @@ h2:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #0b7bf9;
     font-size: 120%;
     margin-right: 10px;
     
@@ -150,10 +150,10 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #0b7bf9;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #0b7bf9;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -216,8 +216,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/body_img.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/body_img.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/body_img.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -412,7 +412,7 @@ header {
 }
 
 .steps-box {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 
@@ -440,11 +440,11 @@ header {
 }
 
 .works-step div {
-    color: #e67e22;
+    color: #0b7bf9;
     font-size: 150%;
     height: 54px;
     width: 54px;
-    border: 2px solid #e67e22;
+    border: 2px solid #0b7bf9;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -485,8 +485,8 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-customers.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-customers.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/back-customers.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/back-customers.png);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;

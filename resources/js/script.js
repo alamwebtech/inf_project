@@ -64,7 +64,7 @@ $(document).ready(function() {
          $(".js--wp-2").addClass("animated fadeInUp");
        
        }, {
-         offset: "50%"
+         offset: "60%"
      });
     
      $(".js--wp-3").waypoint(function(direction){
