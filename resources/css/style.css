@@ -310,6 +310,15 @@ div img #award {
 */
 
 
+/* TECHNOLOGY*/
+
+
+.tech img{
+	width: 40%;
+	border-radius: 20%;
+}
+
+
 /* Mobile navi */
 .mobile-nav-icon {
     float: right;
@@ -728,6 +737,7 @@ footer p {
 a.terms {
 	color: antiquewhite;
 	text-decoration: none;
+	color: #0b7bf9;
 }
 
 
@@ -751,7 +761,8 @@ a.terms {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated {
+.js--wp-3.animated,
+.js--wp-tech{
     opacity: 1;
 }
 
