@@ -300,6 +300,15 @@ nav{
     border-bottom: 2px solid #0b7bf9;
 }
 
+/*AWARDS*/
+
+/*
+div img #award {
+	height: 20px;
+	width: 10%;
+}
+*/
+
 
 /* Mobile navi */
 .mobile-nav-icon {
@@ -478,9 +487,17 @@ section{
 
 .box img {
     width: 70%;
+	
     height: auto;
     margin-bottom: 15px;
+	
 }
+
+.cit img{
+	width:15%;
+	padding-top: 10px;
+}
+
 
 .city-feature {
     margin-bottom: 5px;
