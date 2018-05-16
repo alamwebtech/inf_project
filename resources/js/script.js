@@ -15,7 +15,7 @@ $(document).ready(function() {
 	
 	$(".js--wp-rudy").waypoint(
     function(direction) {
-      $(".js--wp-rudy").addClass("animated fadeInRight");
+      $(".js--wp-rudy").addClass("animated lightSpeedIn");
     },
     {
       offset: "50%"
@@ -64,6 +64,14 @@ $(document).ready(function() {
        }, {
          offset: "60%"
      });
+	
+	
+	$(".js--wp-tech").waypoint(function(direction){
+         $(".js--wp-tech").addClass("animated zoomIn");
+       
+       }, {
+         offset: "60%"
+     });
 
 /*
 
@@ -85,7 +93,7 @@ $(document).ready(function() {
          offset: "50%"
      });
      $("#js--wp-4").waypoint(function(direction){
-         $("#js--wp-4").addClass("animated flip");
+         $("#js--wp-4").addClass("animated flipInX");
        
        }, {
          offset: "50%"
