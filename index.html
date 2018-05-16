@@ -1,3 +1,8 @@
+
+
+<?php include server.php; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -413,22 +418,26 @@
 				</div>
 			</section>
 			
-			
+<!--			FORM SECTION  -->
+		
 			<section>
+			<div class="row">
+					<h2> We're happy to hear from you</h2>
+				</div>
 				
 				<form method="post" name="contact_form"
-action="contact-form-handler.php">
-    Your Name:
-    <input type="text" name="name">
+			   action="contact-form-handler.php">
+				Your Name:
+				<input type="text" name="name">
 
-    Email Address:
-    <input type="text" name="email">
+				Email Address:
+				<input type="text" name="email">
 
-    Message:
-    <textarea name="message"></textarea>
+				Message:
+				<textarea name="message"></textarea>
 
-    <input type="submit" value="Submit">
-</form>	
+				<input type="submit" value="Submit">
+			</form>	
 				
 			</section>
 
@@ -436,9 +445,11 @@ action="contact-form-handler.php">
 
 
 			<section class="section-contact-background" id="contact">
+<!--
 				<div class="row">
 					<h2> We're happy to hear from you</h2>
 				</div>
+-->
 
 				<div class="row js--wp-3">
 
@@ -477,6 +488,7 @@ action="contact-form-handler.php">
 			<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 			<script src="vendors/js/jquery.waypoints.min.js"></script>
 			<script src="resources/js/script.js"></script>
+			<script src="resources/js/form.js"></script>
 
 </body>
 
