@@ -559,6 +559,10 @@ div.row.lease {
 	margin-bottom: 5px;
 }
 
+.imgRudy{
+	border-radius: 10%;
+}
+
 
 /* ----------------------------------------------- */
 
@@ -575,8 +579,8 @@ div.row.lease {
 }
 
 .section-contact-background {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/contact-background.png);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/contact-background.png);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/contact.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/contact.png);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
