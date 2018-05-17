@@ -123,7 +123,7 @@ h2:after {
 /* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
-    display: block;
+/*    display: block;*/
     color: #0b7bf9;
     margin-bottom: 10px;
 	text-align: center;
@@ -300,6 +300,8 @@ nav{
     border-bottom: 2px solid #0b7bf9;
 }
 
+
+
 /*AWARDS*/
 
 /*
@@ -425,7 +427,13 @@ section{
 }
 
 
+.virginia{
+	text-align: center;
+}
 
+div.row.lease{
+	margin-left: 20%;
+}
 
 
 /* ----------------------------------------------- */
@@ -710,6 +718,7 @@ i.icon.ion-logo-facebook
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 	 margin-left: 30px;
+	 font-size: 40px;
 }
 
 
