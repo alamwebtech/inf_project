@@ -1,3 +1,8 @@
+
+<?php include 'contact.php';?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -417,8 +422,9 @@
 				<div class="row">
 					<h2> We're happy to hear from you</h2>
 				</div>
+				<?=$thankYou ?>
 
-				<form method="post" name="contact_form" action="contact-form-handler.php"> <br>
+				<form method="post" name="contact_form" action="index.html">
 					Your Name:
 					<input type="text" name="name"> Email Address:
 					<input type="text" name="email"> Message:
@@ -429,10 +435,6 @@
 
 			</section>
 			
-
-			
-
-
 
 
 			<section class="section-contact-background" id="contact">
