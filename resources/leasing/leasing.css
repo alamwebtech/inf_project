@@ -1,3 +1,14 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	margin-top: 10px;
+}
+
+
+
+
 /*
 Orange color: #e67e22
 Blue Color: #0b7bf9;
@@ -88,6 +99,7 @@ h2 {
 	text-align: center;
 	margin-bottom: 30px;
 	letter-spacing: 1px;
+	margin-left: 10%;
 }
 
 h3 {
@@ -477,9 +489,6 @@ div.row.lease {
 .section-steps {
 	background-color: #f4f4f4;
 }
-.section-getRudy{
-	background-color: #f4f4f4;
-}
 
 .steps-box {
 	margin-top: 80px;
@@ -798,6 +807,9 @@ a.terms {
 	color: #0b7bf9;
 }
 
+.paragraph{
+	text-align: center;
+}
 
 /* ----------------------------------------------- */
 
@@ -820,7 +832,7 @@ a.terms {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated
- {
+.js--wp-3.animated,
+.js--wp-tech {
 	opacity: 1;
 }
