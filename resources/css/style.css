@@ -442,18 +442,18 @@ section{
 
 
 .steps-box:first-child {
-    text-align: right;
+    text-align: center;
     padding-right: 3%;
 }
 
 .steps-box:last-child {
     text-align: left;
     padding-left: 3%;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .app-screen {
-    width: 40%;
+    width: 80%;
 }
 
 .works-step {
