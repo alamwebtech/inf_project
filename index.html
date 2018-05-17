@@ -232,7 +232,7 @@
 <!--	GET A RUDY -->
 
 
-<section class="section-features js--section-features" id="offer">
+<section class="section-getRudy js--section-features" id="offer">
 		<div class="row">
 			<h2>GET A RUDY</h2>
 			<p class="long-copy virginia">Now serving Northern Virginia</p>
@@ -244,14 +244,14 @@
 				<i class=" ion-help-circled icon-big"></i>
 						
 				<h3>For Leasing Options </h3>
-				 <a class="btn btn-full js--scroll-to-plans" href="#">Click Here</a>
+				 <a class="btn btn-full js--scroll-to-plans" href="resources/leasing/leasing.html" target="_blank">Click Here</a>
 				
 			</div>
 
 			<div class="col span-1-of-2 box">
 				<i class=" ion-steam  icon-big"></i>
 				<h3>For questions </h3>
-				<a class="btn btn-ghost" href="#">Contact Us</a>
+				<a class="btn btn-ghost" href="resources/leasing/contact.html" target="_blank">Contact Us</a>
 				
 			</div>
 
@@ -438,13 +438,14 @@
 
 			<!--			FORM SECTION  -->
 
+<!--
 			<section id="contact">
 				<div class="row" >
 					<h2> We're happy to hear from you</h2>
 				</div>
 				<?=$thankYou ?>
 
-				<form method="post" name="contact_form" action="index.html">
+				<form method="post" name="contact_form" action="http://formspree.io/info@infrobotics.com">
 					Your Name:
 					<input type="text" name="name"> Email Address:
 					<input type="text" name="email"> Message:
@@ -454,6 +455,87 @@
 				</form>
 
 			</section>
+			
+-->
+			
+			
+<!--			CONTACT FORM-->
+		<section class="section-form" id="contact">
+            <div class="row">
+                <h2> We're happy to hear from you</h2>
+            </div>
+            <div claass="row">
+                <form method="post" action="http://formspree.io/info@infrobotics.com" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected> Friends
+                                </option>
+                                <option value="search"> Search engine</option>
+                                <option value="ad"> Advertisement</option>
+                                <option value="other"> Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>News letter </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a linne</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        
+        </section>
+		
+		
+<!--		CONTACT FORM SECTION END-->
 			
 
 

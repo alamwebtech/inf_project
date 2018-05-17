@@ -18,7 +18,7 @@ $(document).ready(function() {
       $(".js--wp-rudy").addClass("animated lightSpeedIn");
     },
     {
-      offset: "50%"
+      offset: "60%"
     }
   );
     
@@ -80,7 +80,7 @@ $(document).ready(function() {
 */
     
      $(".js--wp-2").waypoint(function(direction){
-         $(".js--wp-2").addClass("animated fadeInUp");
+         $(".js--wp-2").addClass("animated fadeIn");
        
        }, {
          offset: "60%"
