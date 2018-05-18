@@ -18,9 +18,12 @@ $(document).ready(function() {
       $(".js--wp-rudy").addClass("animated lightSpeedIn");
     },
     {
-      offset: "60%"
+      offset: "70%"
     }
   );
+	
+	
+	
     
     
     /*-----SCROLL ON BUTTON-----*/
