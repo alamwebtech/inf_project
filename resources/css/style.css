@@ -320,12 +320,9 @@ nav {
 
 /*AWARDS*/
 
-/*
-div img #award {
-	height: 20px;
-	width: 10%;
+div.row.award {
+	margin-left: 15%;
 }
-*/
 
 /* TECHNOLOGY*/
 
@@ -477,7 +474,8 @@ div.row.lease {
 .section-steps {
 	background-color: #f4f4f4;
 }
-.section-getRudy{
+.section-getRudy,
+.contact-form{
 	background-color: #f4f4f4;
 }
 
@@ -521,7 +519,10 @@ div.row.lease {
 	margin-right: 25px;
 	float: left;
 	padding: 5px;
+	margin-left: -15%;
 }
+
+
 
 .btn-app:link,
 .btn-app:visited {
