@@ -100,7 +100,12 @@ $(document).ready(function() {
      });
 	
 	
-	
+	$(".js--wp-form").waypoint(function(direction){
+         $(".js--wp-form").addClass("animated pulse");
+       
+       }, {
+         offset: "50%"
+     });
 	
     
     
